@@ -15,7 +15,7 @@ namespace modul6_kelompok_6
         {
             string fileName = "jurnal6_2_1302204118.json";
 
-            string jsonString = File.ReadAllText(fileName);
+            var jsonString = File.ReadAllText(fileName);
             DataMahasiswa_1302204118 jsonData = JsonSerializer.Deserialize<DataMahasiswa_1302204118>(jsonString);
 
             this.members = jsonData.members;
