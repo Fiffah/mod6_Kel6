@@ -1,50 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Text.Json;
+using System.Threading.Tasks;
 
 namespace modul6_kelompok_6
 {
-    class DataMahasiswa_1302204118
+
+    public class DataMahasiswa_1302202095
     {
-        public TeamMember[] members { get; set; }
+        private readonly string fileName;
+
+        public class data1
+        {
+            public string firstName;
+            public string lastName;
+            public string gender;
+            public int age;
+        }
 
         public void ReadJSON()
         {
-            string fileName = "jurnal6_2_1302204118.json";
 
             var jsonString = File.ReadAllText(fileName);
-            DataMahasiswa_1302204118 jsonData = JsonSerializer.Deserialize<DataMahasiswa_1302204118>(jsonString);
+            DataMahasiswa_1302202095 data1 = JsonSerializer.Deserialize<DataMahasiswa_1302202095>(jsonString);
 
-            this.members = jsonData.members;
 
-            this.info();
-        }
-
-        public void info()
-        {
-            Console.WriteLine("Nama Kelompok:");
-            foreach (var team in members)
-            {
-                team.info();
-            }
-        }
-    }
-
-    class TeamMember
-    {
-        public string firstName { get; set; }
-        public string lastName { get; set; }
-        public string gender { get; set; }
-        public int age { get; set; }
-        public string nim { get; set; }
-
-        public void info()
-        {
-            Console.WriteLine(this.nim + " " + this.firstName + " " + this.lastName + " ("
-                + this.age + " " + this.gender + ")");
+            Console.WriteLine($"Nama {dataMahasiswa.firstname} {dataMahasiswa.lastname} berusia {dataMahasiswa.age} dan bejenis kelamin {dataMahasiswa.gender}");
         }
     }
 }
