@@ -44,7 +44,7 @@ namespace modul6_kelompok_6
         public void info()
         {
             Console.WriteLine(this.nim + " " + this.firstName + " " + this.lastName + " ("
-                + this.age + " " + this.gender + ")");
+                + this.age + " " + this.gender + ")"); 
         }
     }
 }
