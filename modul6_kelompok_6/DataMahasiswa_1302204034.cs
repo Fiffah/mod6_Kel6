@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace com.kpl.modul6.adit
+namespace modul6_kelompok_6
 {
     class DataMahasiswa_1302204034
     {
