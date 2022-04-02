@@ -16,5 +16,8 @@ class main
         TeamMembers_1302204034 mhsA2 = new TeamMembers_1302204034();
         mhsA2.ReadJSON();
         Console.WriteLine();
+
+        GlossaryItem_1302204034 mhsA3 = new GlossaryItem_1302204034();
+        mhsA3.ReadJSON();
     }
 }
