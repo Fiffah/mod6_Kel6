@@ -1,10 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Text.Json;
 
-public class TeamMembers_1302200027
+namespace modul6_kelompok_6
 {
-    public TeamMembers_1302200027()
+    class TeamMembers_1302200027
     {
-
         public TeamMember[] members { get; set; }
 
         public void ReadJSON()
@@ -12,10 +16,10 @@ public class TeamMembers_1302200027
             string fileName = "jurnal6_2_1302200027.json";
 
             string jsonString = File.ReadAllText(fileName);
-            TeamMembers_1302200027 jsonData = JsonSerializer.Deserialize<TeamMembers_1302204034>(jsonString);
+            TeamMembers_1302200027 jsonData = JsonSerializer.Deserialize<TeamMembers_1302200027>(jsonString);
 
             this.members = jsonData.members;
-    
+
             this.info();
         }
 
@@ -27,18 +31,19 @@ public class TeamMembers_1302200027
                 team.info();
             }
         }
+    }
 
-        class TeamMember
+    class TeamMember
+    {
+        public string firstName { get; set; }
+        public string lastName { get; set; }
+        public string gender { get; set; }
+        public int age { get; set; }
+        public string nim { get; set; }
+
+        public void info()
         {
-            public string firstName { get; set; }
-            public string lastName { get; set; }
-            public string gender { get; set; }
-            public int age { get; set; }
-            public string nim { get; set; }
-            public void info()
-            {
-                Console.WriteLine(this.nim + " " + this.firstName + " " + this.lastName + " (" + this.age + " " + this.gender + ")");
+            Console.WriteLine(this.nim + " " + this.firstName + " " + this.lastName + " (" + this.age + " " + this.gender + ")");
         }
     }
-}
 }
