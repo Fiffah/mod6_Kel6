@@ -1,0 +1,19 @@
+{
+   "firstName": "Rizal",
+   "lastName": "Rafif",
+   "gender": "male",
+   "age": 20,
+   "address": {
+       "streetAddress": "Ciomas",
+       "city": "Bogor",
+       "state": "West Java"
+   },
+   "courses": [
+       { "code": "CRI2C4", "name": "Konstruksi Perangkat Lunak" },
+       { "code": "CR12F2", "name": "Basis Data " },
+       { "code": "CR12G1", "name": "Algoritma Pemrograman" },
+       { "code": "CR12D3", "name": "Kecerdasan Buatan"},
+       { "code": "CII2A3", "name": "Pengalaman Pengguna"},
+       { "code": "CII3B4", "name": "Pemgrograman Berorientasi Objek"}
+   ]
+}
