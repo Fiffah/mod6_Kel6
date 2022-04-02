@@ -74,4 +74,3 @@ namespace modul6_kelompok_6
         public string[] GlossSeeAlso { get; set; }
     }
 }
-}
