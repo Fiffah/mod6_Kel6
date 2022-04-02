@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		DataMahasiswa_1302204070.cs = DataMahasiswa_1302204070.cs
 		jurnal6_1_1302204070.json = jurnal6_1_1302204070.json
+		jurnal6_2_1302204070.json = jurnal6_2_1302204070.json
+		TeamMember_1302204070.cs = TeamMember_1302204070.cs
 	EndProjectSection
 EndProject
 Global

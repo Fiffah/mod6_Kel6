@@ -32,4 +32,4 @@ namespace modul6_Kelompok_6
 			Console.WriteLine();
 		}
 	}
-}1
+}
