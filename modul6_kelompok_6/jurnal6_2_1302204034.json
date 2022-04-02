@@ -1,0 +1,46 @@
+{
+  "members": [
+    {
+      "firstName": "Rizal",
+      "lastName": "Setiawan",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302204118"
+    },
+    {
+      "firstName": "Abdurrahman",
+      "lastName": "Firdaus",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302204070"
+    },
+    {
+      "firstName": "Farid",
+      "lastName": "Hafizh",
+      "gender": "male",
+      "age": 21,
+      "nim": "1302204082"
+    },
+    {
+      "firstName": "Jahfal",
+      "lastName": "Ramadhan",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302204034"
+    },
+    {
+      "firstName": "Luthfan",
+      "lastName": "Ramadhan",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302204070"
+    },
+    {
+      "firstName": "Sulthan",
+      "lastName": "Fahrein",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302200027"
+    }
+  ]
+}
