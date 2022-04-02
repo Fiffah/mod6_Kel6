@@ -1,0 +1,59 @@
+﻿using System.Text.Json;
+
+namespace modul6_kelompok_6
+{
+    class DataMahasiswa_1302200121
+    {
+        public string firstName { get; set; }
+        public string lastName { get; set; }
+        public string gender { get; set; }
+        public int age { get; set; }
+        public alamat address { get; set; }
+        public matkul[] courses { get; set; }
+
+        public void ReadJSON()
+        {
+            string fileName = "jurnal6_1_1302200121.json";
+
+            string jsonString = File.ReadAllText(fileName);
+            DataMahasiswa_1302200121 jsonData = JsonSerializer.Deserialize<DataMahasiswa_1302200121>(jsonString);
+
+            this.firstName = jsonData.firstName;
+            this.lastName = jsonData.lastName;
+            this.gender = jsonData.gender;
+            this.age = jsonData.age;
+            this.address = jsonData.address;
+            this.courses = jsonData.courses;
+
+            this.info();
+        }
+
+        public void info()
+        {
+            Console.WriteLine("Nama\t\t: " + this.firstName + " " + this.lastName);
+            Console.WriteLine("Gender\t\t: " + this.gender);
+            Console.WriteLine("Umur\t\t: " + this.age);
+            Console.WriteLine("Tinggal di\t: " + this.address.streetAddress + ", "
+                + this.address.city + ", " + this.address.state);
+            foreach (var item in this.courses)
+            {
+                Console.WriteLine("Mengikuti \t: " + item.code + "-" + item.name);
+            }
+        }
+
+
+    }
+
+    class alamat
+    {
+        public string streetAddress { get; set; }
+        public string city { get; set; }
+        public string state { get; set; }
+    }
+
+    class matkul
+    {
+        public string code { get; set; }
+        public string name { get; set; }
+    }
+}
