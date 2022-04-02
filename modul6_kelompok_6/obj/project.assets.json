@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\RAFIF\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RAFIF\\OneDrive - Telkom University\\SEMESTER 4\\Konstruksi Perangkat Lunak\\Praktikum\\modul6_kelompok_6\\modul6_kelompok_6\\modul6_kelompok_6.csproj",
+      "projectUniqueName": "D:\\kuliah coding\\semester 4\\Konstruksi Perangkat Lunak\\modul6_kelompok_6\\mod6_Kel6\\modul6_kelompok_6\\modul6_kelompok_6.csproj",
       "projectName": "modul6_kelompok_6",
-      "projectPath": "C:\\Users\\RAFIF\\OneDrive - Telkom University\\SEMESTER 4\\Konstruksi Perangkat Lunak\\Praktikum\\modul6_kelompok_6\\modul6_kelompok_6\\modul6_kelompok_6.csproj",
-      "packagesPath": "C:\\Users\\RAFIF\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RAFIF\\OneDrive - Telkom University\\SEMESTER 4\\Konstruksi Perangkat Lunak\\Praktikum\\modul6_kelompok_6\\modul6_kelompok_6\\obj\\",
+      "projectPath": "D:\\kuliah coding\\semester 4\\Konstruksi Perangkat Lunak\\modul6_kelompok_6\\mod6_Kel6\\modul6_kelompok_6\\modul6_kelompok_6.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\kuliah coding\\semester 4\\Konstruksi Perangkat Lunak\\modul6_kelompok_6\\mod6_Kel6\\modul6_kelompok_6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\RAFIF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

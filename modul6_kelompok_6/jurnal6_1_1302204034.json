@@ -1,0 +1,21 @@
+{
+  "firstName": "Jahfal",
+  "lastName": "Ramadhan",
+  "gender": "male",
+  "age": 19,
+  "address": {
+    "streetAddress": "MGT",
+    "city": "Bekasi",
+    "state": "West Java"
+  },
+  "courses": [
+    {
+      "code": "CRI2C4",
+      "name": "Konstruksi Perangkat Lunak"
+    },
+    {
+      "code": "CRI2XX",
+      "name": "Nama Mata Kuliah"
+    }
+  ]
+}
