@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RAFIF\\OneDrive - Telkom University\\SEMESTER 4\\Konstruksi Perangkat Lunak\\Praktikum\\modul6_kelompok_6\\modul6_kelompok_6\\modul6_kelompok_6.csproj": {}
+    "C:\\Users\\USER\\source\\repos\\mod6_kel6\\mod6_Kel6\\modul6_kelompok_6\\modul6_kelompok_6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RAFIF\\OneDrive - Telkom University\\SEMESTER 4\\Konstruksi Perangkat Lunak\\Praktikum\\modul6_kelompok_6\\modul6_kelompok_6\\modul6_kelompok_6.csproj": {
+    "C:\\Users\\USER\\source\\repos\\mod6_kel6\\mod6_Kel6\\modul6_kelompok_6\\modul6_kelompok_6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RAFIF\\OneDrive - Telkom University\\SEMESTER 4\\Konstruksi Perangkat Lunak\\Praktikum\\modul6_kelompok_6\\modul6_kelompok_6\\modul6_kelompok_6.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\mod6_kel6\\mod6_Kel6\\modul6_kelompok_6\\modul6_kelompok_6.csproj",
         "projectName": "modul6_kelompok_6",
-        "projectPath": "C:\\Users\\RAFIF\\OneDrive - Telkom University\\SEMESTER 4\\Konstruksi Perangkat Lunak\\Praktikum\\modul6_kelompok_6\\modul6_kelompok_6\\modul6_kelompok_6.csproj",
-        "packagesPath": "C:\\Users\\RAFIF\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RAFIF\\OneDrive - Telkom University\\SEMESTER 4\\Konstruksi Perangkat Lunak\\Praktikum\\modul6_kelompok_6\\modul6_kelompok_6\\obj\\",
+        "projectPath": "C:\\Users\\USER\\source\\repos\\mod6_kel6\\mod6_Kel6\\modul6_kelompok_6\\modul6_kelompok_6.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\source\\repos\\mod6_kel6\\mod6_Kel6\\modul6_kelompok_6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\RAFIF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
