@@ -1,15 +1,20 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Text.Json;
 using System.Threading.Tasks;
+using modul6_kelompok_6;
 
-namespace modul6_Kelompok_6
+class main
 {
-    internal class DataMahasiswa_1302204118
+    public static void Main()
     {
+        DataMahasiswa_1302204118 mhsA1 = new DataMahasiswa_1302204118();
+        mhsA1.ReadJSON();
+        Console.WriteLine();
 
+        DataMahasiswa_1302204118 mhsA2 = new DataMahasiswa_1302204118();
+        mhsA2.ReadJSON();
+        Console.WriteLine();
     }
 }

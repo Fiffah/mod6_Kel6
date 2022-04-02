@@ -1,0 +1,37 @@
+{
+  "members" : [
+    {
+      "firstName1": "Muhammad",
+      "lastName1": "Farid",
+      "gender1": "male",
+      "age1": 20,
+      "nim1": "1302204082"
+    },
+    {
+      "firstName2": "Muhammad",
+      "lastName2": "Abdurrahman",
+      "gender2": "male",
+      "age2": 20,
+      "nim2": "1302204070"
+    },
+    {
+      "firstName3": "Luthfan",
+      "lastName3": "Ramdhan",
+      "gender3": "male",
+      "age3": 20,
+      "nim3": "1302204038",
+
+      "firstName4": "Achmad",
+      "lastName4": "Rizky",
+      "gender4": "male",
+      "age4": 20,
+      "nim4": "1302200027",
+
+      "firstName5": "Sulthan",
+      "lastName5": "Fahrein",
+      "gender5": "male",
+      "age5": 20,
+      "nim5": "1302200027"
+    }
+  ]
+}
