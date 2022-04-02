@@ -9,7 +9,7 @@ public class TeamMembers_1302200027
 
         public void ReadJSON()
         {
-            string fileName = "jurnal6_2_1302204034.json";
+            string fileName = "jurnal6_2_1302200027.json";
 
             string jsonString = File.ReadAllText(fileName);
             TeamMembers_1302200027 jsonData = JsonSerializer.Deserialize<TeamMembers_1302204034>(jsonString);
