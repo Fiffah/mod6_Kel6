@@ -8,6 +8,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{81F77757-0DC1-4BDF-8223-13368EFEC890}"
 	ProjectSection(SolutionItems) = preProject
 		DataMahasiswa_1302204070.cs = DataMahasiswa_1302204070.cs
+		GlossaryItem_1302204070.cs = GlossaryItem_1302204070.cs
+		GlossaryItem_1302204070.json = GlossaryItem_1302204070.json
 		jurnal6_1_1302204070.json = jurnal6_1_1302204070.json
 		jurnal6_2_1302204070.json = jurnal6_2_1302204070.json
 		TeamMember_1302204070.cs = TeamMember_1302204070.cs
